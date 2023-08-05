@@ -1,0 +1,77 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Kimox - Digital Agency Services HTML5 Template
+    Description: Kimox - Digital Agency Services HTML5 Template
+    Author: Bdevs
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+
+    01. header CSS
+    02. footer CSS
+
+-----------------------------------------------------------------------------------*/
+@font-face {
+  font-family: "Flat_Regular";
+  src: url("../fonts/Flat_Regular/JF\ Flat\ Regular.ttf") format("truetype");
+}
+
+$primary-color: #f7f7f7;
+$secondary-color: #6666cc;
+$third-color: #41b883;
+$transition:all 0.3s ease;
+* {
+  font-family: Flat_Regular, sans-serif;
+  margin: 0;
+  padding: 0;
+  // margin: unset !important;
+  // padding: unset !important;
+}
+body{
+  background-color: $primary-color;
+  overflow-x: hidden;
+  color: #5a5a5d;
+}
+.row{
+  width: 100%;
+}
+.bg_primary {
+  background-color: $primary-color !important;
+}
+.text_primary {
+  color: $primary-color !important;
+}
+.hover_primary {
+  &:hover {
+    background-color: $primary-color !important;
+  }
+}
+.globalLine {
+  width: 60px;
+  height: 2px;
+  background: black;
+}
+.title-arrival{
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  font-weight: 501;
+  text-transform: uppercase;
+    .title1{
+      color: $secondary-color;
+      margin: 0 3px;
+    }
+    .title2{
+      color: #fff;
+      margin: 0 3px;
+    }
+
+}
+@import "./Header.scss";
+@import "./Footer.scss";
+@import "./login.scss";
+@import "./profile/profile.scss";

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "categories",
+    "path": "/categories",
+    "component": "E:\\\\AAAA The Company\\\\nuxt 2 Tahwal\\\\pages\\\\categories\\\\index.vue",
+    "chunkName": "pages/categories/index",
+    "_name": "_7f6258e3"
+  },
+  {
+    "name": "chairs",
+    "path": "/chairs",
+    "component": "E:\\\\AAAA The Company\\\\nuxt 2 Tahwal\\\\pages\\\\chairs\\\\index.vue",
+    "chunkName": "pages/chairs/index",
+    "_name": "_3d397bf1"
+  },
+  {
+    "name": "invitations",
+    "path": "/invitations",
+    "component": "E:\\\\AAAA The Company\\\\nuxt 2 Tahwal\\\\pages\\\\invitations\\\\index.vue",
+    "chunkName": "pages/invitations/index",
+    "_name": "_432bc88a"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "E:\\\\AAAA The Company\\\\nuxt 2 Tahwal\\\\pages\\\\login\\\\index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_56a4e12c"
+  },
+  {
+    "name": "registrationPass",
+    "path": "/registrationPass",
+    "component": "E:\\\\AAAA The Company\\\\nuxt 2 Tahwal\\\\pages\\\\registrationPass\\\\index.vue",
+    "chunkName": "pages/registrationPass/index",
+    "_name": "_e0e97bd6"
+  },
+  {
+    "name": "registrationUser",
+    "path": "/registrationUser",
+    "component": "E:\\\\AAAA The Company\\\\nuxt 2 Tahwal\\\\pages\\\\registrationUser\\\\index.vue",
+    "chunkName": "pages/registrationUser/index",
+    "_name": "_1f90821b"
+  },
+  {
+    "name": "surename",
+    "path": "/surename",
+    "component": "E:\\\\AAAA The Company\\\\nuxt 2 Tahwal\\\\pages\\\\surename\\\\index.vue",
+    "chunkName": "pages/surename/index",
+    "_name": "_5e19619f"
+  },
+  {
+    "name": "invitations-all",
+    "path": "/invitations/all",
+    "component": "E:\\\\AAAA The Company\\\\nuxt 2 Tahwal\\\\pages\\\\invitations\\\\all\\\\index.vue",
+    "chunkName": "pages/invitations/all/index",
+    "_name": "_9919c010"
+  },
+  {
+    "name": "invitations-external",
+    "path": "/invitations/external",
+    "component": "E:\\\\AAAA The Company\\\\nuxt 2 Tahwal\\\\pages\\\\invitations\\\\external\\\\index.vue",
+    "chunkName": "pages/invitations/external/index",
+    "_name": "_ac1da360"
+  },
+  {
+    "name": "invitations-general",
+    "path": "/invitations/general",
+    "component": "E:\\\\AAAA The Company\\\\nuxt 2 Tahwal\\\\pages\\\\invitations\\\\general\\\\index.vue",
+    "chunkName": "pages/invitations/general/index",
+    "_name": "_164c625e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "E:\\\\AAAA The Company\\\\nuxt 2 Tahwal\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_191c5b7f"
+  }
+]

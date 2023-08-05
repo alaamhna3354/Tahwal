@@ -1,0 +1,29 @@
+{
+  "AuthForgetpass": {
+    "description": "Auto imported from components/auth/Forgetpass.vue"
+  },
+  "AuthForgetuser": {
+    "description": "Auto imported from components/auth/Forgetuser.vue"
+  },
+  "AuthLogin": {
+    "description": "Auto imported from components/auth/login.vue"
+  },
+  "CommonFooter": {
+    "description": "Auto imported from components/Common/Footer.vue"
+  },
+  "CommonHeader": {
+    "description": "Auto imported from components/Common/Header.vue"
+  },
+  "Home": {
+    "description": "Auto imported from components/Home/Home.vue"
+  },
+  "Invitations": {
+    "description": "Auto imported from components/invitations/invitations.vue"
+  },
+  "LoaderLoading": {
+    "description": "Auto imported from components/Loader/loading.vue"
+  },
+  "LoaderVPlaceload": {
+    "description": "Auto imported from components/Loader/VPlaceload.vue"
+  }
+}

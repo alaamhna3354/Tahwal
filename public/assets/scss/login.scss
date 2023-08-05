@@ -1,0 +1,76 @@
+#login{
+    form{
+        margin:100px auto;
+        width: 50%;
+        padding: 40px;
+        background-color: #fafafa;
+        border-radius: 10px;
+        position: relative;
+        box-shadow: 10px 0 10px 0 rgba(18, 25, 33, 0.1);
+        @media (max-width: 992.98px) {
+            width: 70%;
+        }
+        @media (max-width: 768.98px) {
+            width: 90%;
+            padding: 20px;
+        }
+        label{
+            margin-bottom: 5px;
+            color: #666;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+        input[type="text"]{
+            padding: 13px 40px;
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+            font-size: 16px;
+            color: #273f5b;
+            border-radius: 50px;
+            background-color: #fff;
+            box-shadow: 0 0 30px 0 rgba(18, 25, 33, 0.15);
+            width: 100%;
+            outline: none;
+            -webkit-transition: border 0.2s linear, box-shadow 0.2s linear;
+            -moz-transition: border 0.2s linear, box-shadow 0.2s linear;
+            transition: border 0.2s linear, box-shadow 0.2s linear;
+        }
+        input[type="checkbox"]{
+            accent-color: $secondary-color;
+        }
+        button{
+            cursor: pointer;
+            text-decoration: none;
+            padding: 18px 50px;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 900;
+            border-radius: 50px;
+            position: relative;
+            transition: all 0.3s ease;
+            text-align: center;
+            line-height: 1;
+            background-color: $secondary-color;
+            border: none;
+            width: 100%;
+            &:hover{
+                box-shadow: 10px 0 30px 0 rgba(102, 102, 204, 0.5);
+            }
+        }
+        p{
+            color: #666;
+        }
+        a{
+            color: $secondary-color;
+            text-decoration: none;
+            transition: $transition;
+            &:hover{
+                color: #4d4d4d;
+            }
+            @media (max-width: 768.98px) {
+                display: block;
+            }
+        }
+    }
+}

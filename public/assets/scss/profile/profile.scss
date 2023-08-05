@@ -1,0 +1,236 @@
+.profile {
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding:20px 0;
+    .top {
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      .add {
+        position: relative;
+        .add-but{
+          width: 90px;
+          margin-top: 5px;
+          color: $secondary-color;
+          cursor: pointer;
+          transition: 0.5s;
+          &:hover {
+            color: #4d4d4d;
+          }
+        }
+        .overlay{
+          position: fixed;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.226);
+          z-index: 9;
+          top: 0;
+          left: 0;
+        }
+          .invitations{
+            table{
+              th,td{
+                border: 1px solid #dddddd;
+                text-align: center;
+                padding: 10px;
+              }
+            }
+          position: fixed;
+          top: 1px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 825px;
+          margin-left: 0px;
+          height: 615px;
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          z-index: 10;
+          @media (max-width: 825px) {
+            width: 90%;
+            .col-md-6,.col-md-12{
+                padding: 0;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+          .head{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            i{
+              cursor: pointer;
+              transition: .5s;
+              color: $secondary-color;
+              &:hover{
+                color: #4d4d4d;
+              }
+            }
+          }
+          .body{
+            width: 100%;
+            overflow-y: scroll;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            scrollbar-width: thin;
+            height: 500px;
+            .title{
+              color: white;
+              background: $secondary-color;
+              padding: 15px 5px;
+              text-align: center;
+              border-radius: 5px;
+              margin: 30px 0;
+              h4{
+                font-size: 20px;
+              }
+            }
+            input[type="radio"]{
+                &:focus + .btn-radio{
+                    box-shadow: none;
+                    background-color: $secondary-color;
+                    color: #fff;
+                }
+            }
+            input:checked + .btn-radio{
+                    box-shadow: none;
+                    background-color: $secondary-color;
+                    color: #fff;
+            }
+            input[type="radio"]{
+                &:focus + .yes{
+                    background-color: $third-color;
+                }
+            }
+            input:checked + .yes{
+                    background-color: $third-color;
+            }
+            input[type="radio"]{
+                &:focus + .no{
+                    background-color: #ff6a6a;
+                }
+            }
+            input:checked + .no{
+                    background-color: #ff6a6a;
+            }
+            .btn-radio{
+                background-color: #f5f5f5;
+                transition: $transition;
+                &:hover{
+                    background-color: #e6e6e6;
+                }
+                
+            }
+            .btn-send{
+                color: #fff;
+                background-color: $secondary-color;
+                padding: 5px 20px;
+                transition: $transition;
+                &:hover{
+                    scale: 1.1;
+                    box-shadow: 0px 3px 10px #4d4d4d;
+                }
+            }
+          }
+  }
+  .surename{
+    width: 582px;
+    height: 400px;
+    overflow: hidden;
+    top: 20%;
+    @media (max-width: 825px) {
+      width: 90%;
+  }
+  }
+        }
+        .Excel{
+        position: relative;
+        margin-inline-start: 25px;
+            span{
+            width: 90px;
+            margin-top: 5px;
+            color: $secondary-color;
+            cursor: pointer;
+            transition: 0.5s;
+                &:hover {
+                    color: #4d4d4d;
+                }
+            }
+        }
+    }
+    .control{
+      margin-top: 25px;
+      background-color: #f0f9fd;
+      padding: 20px;
+      border: 1px solid #c5e7f7;
+      .refresh{
+        color: $secondary-color;
+        cursor: pointer;
+        transition: $transition;
+        button{
+          background-color: transparent;
+          border: none;
+          color: $secondary-color;
+          font-weight: bold;
+          transition: $transition;
+        }
+        &:hover{
+          color: #4d4d4d;
+          button{
+            color: #4d4d4d;
+          }
+        }
+      }
+      select{
+      width: 100%;
+      padding: 6px;
+      background-color: #fff;
+      border: 1px solid #ced4da;
+      border-radius: 3px; 
+      }
+      .go{
+        background-color: $third-color;
+        color: #fff;
+        border: none;
+        font-weight: bold;
+        padding: 5px 20px;
+        border-radius: 5px;
+        margin-inline-start: 10px;
+        margin-top: 10px;
+        transition: $transition;
+        &:hover{
+          scale: .9;
+        }
+      }
+    }
+    .list{
+      table{
+        width: 100%;
+        th{
+          border: 1px solid #dddddd;
+          text-align: center;
+        }
+        td{
+          text-align: center;
+          border: 1px solid #dddddd;
+          padding: 10px;
+          &.action{
+          i{
+            width: 30px;
+            cursor: pointer;
+            transition: $transition;
+            &:hover{
+             color: $secondary-color;
+            }
+          }
+         } 
+        }
+      }
+    }
+  }
